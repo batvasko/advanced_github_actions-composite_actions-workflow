@@ -11,4 +11,4 @@ jobs:
       # - YOUR_COMPOSITE_ACTION_REPO_NAME
       - uses: batvasko/advanced_github_actions-composite_actions-action@main
         with:
-          PYTHON_VERSION: 3.8
+          PYTHON_VERSION: 3.10
