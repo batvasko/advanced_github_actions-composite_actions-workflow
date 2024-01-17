@@ -12,6 +12,3 @@ jobs:
       - uses: batvasko/advanced_github_actions-composite_actions-action@main
         with:
           PYTHON_VERSION: "3.11"
-      - name: Set output using environment file
-        run: |
-          echo "PYTHON_VERSION=${{ env.PYTHON_VERSION }}" >> $GITHUB_ENV
